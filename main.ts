@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-const ENTRY = 'Our office installed a standing desk for the intern so the manager could sit while watching him stand.';
+const ENTRY = 'HR rolled out an anonymous feedback form so management could finally hear what everyone keeps saying in meetings they were also in.';
 
 fs.mkdirSync('/output', { recursive: true });
 fs.writeFileSync('/output/entry.txt', ENTRY);
